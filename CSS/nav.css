@@ -3,3 +3,58 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    background-color: #000;
+    color: #d3a14d; /* Gold color for the text */
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #000;
+}
+
+.logo img {
+    height: 50px; /* Adjust height as needed */
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: #d3a14d;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: white; /* Slightly darker or contrasting color on hover */
+}
+
+.order-button {
+    padding: 10px 20px;
+    color: #000;
+    background-color: #d3a14d;
+    border: 2px dashed #d3a14d;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 20px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.order-button:hover {
+    background-color: white;
+    color: #d3a14d;
+}
