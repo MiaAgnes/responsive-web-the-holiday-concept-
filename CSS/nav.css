@@ -19,23 +19,27 @@ body {
 }
 
 .logo img {
-    height: 50px; /* Adjust height as needed */
+    height: 100px; 
+    width: 150px;
+    padding: 5px;
 }
 
 .nav-links {
     display: flex;
     list-style: none;
+    margin-left: auto;
 }
 
 .nav-links li {
-    margin: 0 15px;
+    margin: 0 18px
 }
 
 .nav-links a {
+    display: flex;
     color: #d3a14d;
     text-decoration: none;
-    font-size: 16px;
-    transition: color 0.3s;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 .nav-links a:hover {
@@ -43,18 +47,18 @@ body {
 }
 
 .order-button {
-    padding: 10px 20px;
+    padding: 16px 40px;
     color: #000;
     background-color: #d3a14d;
     border: 2px dashed #d3a14d;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: bold;
     border-radius: 20px;
     transition: background-color 0.3s, color 0.3s;
 }
 
 .order-button:hover {
-    background-color: white;
+    background-color: black;
     color: #d3a14d;
 }
