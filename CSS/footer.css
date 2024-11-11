@@ -34,8 +34,8 @@ a:hover {
     color: #d3a14d;
 }
 
-.icons a:hover {
-    color: white; /* Slightly darker or contrasting color on hover */
+.icons:hover {
+    opacity: 0.3;
 }
 
 .icon-group {
