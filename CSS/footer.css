@@ -3,3 +3,25 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+a {
+    text-decoration: none;
+    color: #d3a14d;
+}
+
+.icons {
+    height: 30px;
+    background-color: #d3a14d;
+    padding:;
+}
+
+.footer-img {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.tbc-logo {
+    height:211.5px;
+    width: 302.5px;
+}
