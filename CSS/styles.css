@@ -1,16 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.juletrae-og-julekugle {
+  position: relative;
+  width: 100%;
+  height: 800px;
+  overflow: hidden;
+}
+
 .juletrae {
     width: 100%;
-    height:800px;
+    height: 100%;
     object-fit: cover;
-
     z-index: -1;
+    position: absolute; 
+    top: 0;
+    left: 0;
   }
   
   .julekugle {
- margin-left:auto;
- margin-right:auto;
-    transform: translate(170%, -98%); 
-    z-index: 1; 
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    max-width: 200px; 
+    z-index: 1;
   }
 
   .overlay-text {
