@@ -6,9 +6,54 @@
 
 
 h1 {
-    font-family: 'Pacifico', cursive; /* Example font; adjust as needed */
-    color: #d3a14d; /* Gold color */
+    font-family: 'Pacifico', cursive; 
+    color: #d3a14d; 
     text-align: center;
-    font-size: 3rem; /* Adjust for size */
+    font-size: 3rem; 
     margin-bottom: 30px;
 }
+
+/* menu-navbar*/
+
+.menu-nav-links {
+    list-style: none;
+    display: flex;
+    gap: 50px; /* Space between links */
+    text-align: center;
+    justify-content: center;
+}
+
+.menu-nav-links li {
+    text-align: center; /* Centrerer indholdet af li */
+}
+
+.menu-nav-links li a {
+    color: #fff; /* White text */
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1rem;
+    display: inline-block;
+         
+}
+
+.menu-nav-links li a:hover {
+    color: #d3a14d; /* Gold on hover */
+}
+
+/*menu billeder*/
+.menu-billeder img{
+    height: auto;
+    max-width: 100%;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+
+/*menukort generel tekst*/
+.menukort-header {
+    background-color: black;
+    color: #fff;
+    padding: 60px;
+}
+
