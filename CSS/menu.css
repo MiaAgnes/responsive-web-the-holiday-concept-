@@ -5,8 +5,10 @@
 }
 
 
-{
-    background-color: #00000000;
-    opacity: 0.61;
-    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+h1 {
+    font-family: 'Pacifico', cursive; /* Example font; adjust as needed */
+    color: #d3a14d; /* Gold color */
+    text-align: center;
+    font-size: 3rem; /* Adjust for size */
+    margin-bottom: 30px;
 }

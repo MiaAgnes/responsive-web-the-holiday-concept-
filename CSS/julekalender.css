@@ -1,8 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
 background-color: black;
 background-image:url("../img/lille-juletre.png");
 }
 
+<<<<<<< HEAD
 .juletrae {
     width: 100%;
     height: auto;
@@ -14,3 +21,12 @@ background-image:url("../img/lille-juletre.png");
     margin-left: auto;
     margin-right: auto;
   }
+=======
+.julekugle-logo {
+margin-top:0px;
+}
+
+.main {
+    margin: 0px 50%;
+}
+>>>>>>> 9ae78033a12a1eb622949acfef4eba8311ec21cd
