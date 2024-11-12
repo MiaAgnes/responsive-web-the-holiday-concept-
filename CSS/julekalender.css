@@ -3,21 +3,38 @@ background-color: black;
 background-image:url("../img/lille-juletre.png");
 }
 
+main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .juletrae {
     width: 100%;
     height: auto;
     z-index: -1;
   }
 
-
   .main{
     margin-left: auto;
     margin-right: auto;
+    margin: 0px 50%;
+    width: 70%; 
+    padding: 20px;
+    box-sizing: border-box;
   }
-.julekugle-logo {
-margin-top:0px;
+
+.julekugle-box {
+  width: 30%; 
+  box-sizing: border-box;
 }
 
-.main {
-    margin: 0px 50%;
+.julekugle-kalender {
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .julekugle-box, .main {
+      width: 100%;
+  }
 }
