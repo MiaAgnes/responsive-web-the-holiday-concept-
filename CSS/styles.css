@@ -71,8 +71,8 @@ p{
 
 .order-button2 {
   padding: 16px 40px;
-  color: #000;
-  background-color: #d3a14d;
+  background-color: black;
+  color: #d3a14d;
   border: 2px dotted #d3a14d;
   font-size: 18px;
   font-weight: bold;
@@ -82,8 +82,8 @@ p{
 }
 
 .order-button2:hover {
-  background-color: black;
-  color: #d3a14d;
+  color: white;
+  background-color: #d3a14d;
 }
 
 
