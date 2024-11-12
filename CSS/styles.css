@@ -16,6 +16,7 @@
     left: 50%; 
     transform: translate(-50%, -50%); 
     z-index: 1; 
+    
   }
 
   .overlay-text {
@@ -47,4 +48,26 @@ h2{
 .overskrift{
     display: block;
     text-align: center;
+    padding-top: 1%;
+}
+
+.order-button2 {
+  padding: 16px 40px;
+  color: #000;
+  background-color: #d3a14d;
+  border: 2px dotted #d3a14d;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 20px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.order-button2:hover {
+  background-color: black;
+  color: #d3a14d;
+}
+
+.button.container{
+  margin-top: 5%;
 }

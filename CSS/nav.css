@@ -63,19 +63,3 @@ body {
     color: #d3a14d;
 }
 
-.order-button2 {
-    padding: 16px 40px;
-    color: #000;
-    background-color: #d3a14d;
-    border: 2px dotted #d3a14d;
-    text-decoration: none;
-    font-size: 18px;
-    font-weight: bold;
-    border-radius: 20px;
-    transition: background-color 0.3s, color 0.3s;
-}
-
-.order-button2:hover {
-    background-color: black;
-    color: #d3a14d;
-}
