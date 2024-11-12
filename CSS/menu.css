@@ -49,11 +49,106 @@ h1 {
     box-shadow: none;
 }
 
+section {
+    
+}
+
 
 /*menukort generel tekst*/
 .menukort-header {
     background-color: black;
     color: #fff;
     padding: 60px;
+    margin-bottom: 20px;
 }
+
+.menu-h5 {
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+    margin: 10px 0 5px;
+}
+
+.menu-p {
+    font-size: 0.9em;
+    line-height: 1.6;
+    font-family: 'Arial', sans-serif;
+    color: #ddd;
+}
+
+/*burger section*/
+
+.burger-img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    
+}
+
+/*burger section*/
+
+
+
+/* General section styling 
+.burger-section {
+    background-color: #000;
+    color: #fff;
+    padding: 40px;
+    text-align: center;
+}
+
+.burger-section h2 {
+    font-size: 2em;
+    font-family: 'Georgia', serif;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+Grid layout for burger articles
+.burger-section .menukort {
+    display: inline-block;
+    width: 30%;
+    margin: 10px;
+    background-color: #111;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+}
+
+.menu-billeder img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+ Styling for burger name and description 
+.menu-h5 {
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+    margin: 10px 0 5px;
+}
+
+.menu-p {
+    font-size: 0.9em;
+    line-height: 1.6;
+    font-family: 'Arial', sans-serif;
+    color: #ddd;
+}
+
+/* Adjustments for responsive design 
+@media (max-width: 768px) {
+    .burger-section .menukort {
+        width: 45%;
+    }
+}
+
+@media (max-width: 480px) {
+    .burger-section .menukort {
+        width: 90%;
+    }
+}
+*/
 
