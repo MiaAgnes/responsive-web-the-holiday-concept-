@@ -53,11 +53,22 @@ a:hover {
     display: flex;
     flex-direction: column;
     align-content: center;
-    
+}
+
+.footer-links {
+    width: 300px;
+display: flex;
+flex-direction: column;
+}
+
+.footer-links3 {
+    width: 360px;
 }
 
 .tbc-logo {
     height:105.75px;
     width: 151.25px;
     margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
 }
