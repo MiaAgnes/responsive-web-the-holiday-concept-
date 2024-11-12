@@ -1,0 +1,75 @@
+.julekugle {
+    margin-top: 24px;
+    height: auto;
+    width: 40%;
+}
+
+.h1-og-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
+    margin-bottom: 10rem;
+}
+
+.h1 {
+    font-family: 'Great Vibes', cursive;
+    color: #d3a14d;
+    font-size: 3.5rem; 
+    margin-bottom: 1.5rem;
+}
+
+.dotted-line-1 {
+    display: flex;
+    justify-content: center;  
+    align-items: center;   
+    margin-bottom: 1rem;
+    width: 15rem;
+    border: #d3a14d;
+    border: dotted;
+}
+
+.info {
+    display: flex;     
+    justify-content: center;  
+    align-items: center;     
+    text-align: center;
+    width: 50rem;           
+    height: 150px;           
+    padding:20px; 
+    color: white;   
+    margin-bottom: 1;     /* Ved media queries husk at indsætte, så margin-bottom ændrer sig i procent - På den måde går jule-links og informationen ikke sammen på mobil */
+ }
+
+
+.jule-links {
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    margin-top: -15rem;
+    gap: 15%;
+    font-size: 1.5rem;
+    font-weight: bold;
+
+}
+
+
+.dotted-2-container {
+    display: flex;          
+    justify-content: center;  
+    align-items: center;                
+  }
+  
+  .dotted-line-2 {
+    width: 20rem;             
+    border: 2px dotted #d3a14d; 
+    margin-top: -15%;  
+    width: 50rem;              
+  }
+
+  .jul-hos {
+    display: flex;          
+    justify-content: center;  
+    align-items: center; 
+    margin-top: -5%;
+  }
