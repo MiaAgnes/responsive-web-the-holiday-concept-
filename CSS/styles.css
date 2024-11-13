@@ -44,8 +44,8 @@
 }
 
 .overlay-text a:hover {
-    text-decoration: underline;
-    color: #d3a14d;
+  text-decoration: underline;
+  color: #d3a14d;
 }
 
 h2{
@@ -54,10 +54,10 @@ h2{
 }
 
 .h2-button {
-margin-bottom: 60px;
+  margin-bottom: 60px;
 }
 
-h3{
+h3 {
   font-size: 30px;
 }
 
@@ -65,10 +65,10 @@ p{
   font-size: 20px;
 }
 
-.overskrift{
-    display: block;
-    text-align: center;
-    margin-top: 2%;
+.overskrift {
+  display: block;
+  text-align: center;
+  margin-top: 2%;
 }
 
 .order-button2 {
@@ -88,7 +88,16 @@ p{
   background-color: #d3a14d;
 }
 
-
+.logo-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 80px
+}
 
 section {
   display: flex;
@@ -122,17 +131,12 @@ section {
   margin-top: 15px;
 }
 
-.knap:hover{
+.knap:hover {
   background-color: #d3a14d;
   color: white;
 }
 
-
-@media(max-width:480px){
- 
-
-
-  
+@media (max-width: 480px) {
 }
 
 @media(min-width:481px) and (max-width:768px){
@@ -141,6 +145,9 @@ section {
 
 
 
+  .julekugle {
+    max-width: 90%; /* Adjust for smaller screens */
+  }
 }
 
 
