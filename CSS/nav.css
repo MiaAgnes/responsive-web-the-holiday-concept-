@@ -48,8 +48,9 @@ body {
 
 .order-button {
     padding: 16px 40px;
-    color: #000;
-    background-color: #d3a14d;
+    background-color: black;
+    color: #d3a14d;
+    
     border: 2px dotted #d3a14d;
     text-decoration: none;
     font-size: 18px;
@@ -59,7 +60,7 @@ body {
 }
 
 .order-button:hover {
-    background-color: black;
-    color: #d3a14d;
+    color: white;
+    background-color: #d3a14d;
 }
 
