@@ -88,17 +88,6 @@ p{
   background-color: #d3a14d;
 }
 
-.logo-container {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  padding-top: 80px
-}
-
 section {
   display: flex;
   gap: 6%;
