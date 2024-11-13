@@ -28,13 +28,10 @@
 }
 
 .dotted-line-1 {
-    display: flex;
-    justify-content: center;  
-    align-items: center;   
-    margin-bottom: 1rem;
-    width: 15rem;
-    border: #d3a14d;
-    border: dotted;
+        border: none;
+        border-top: 7px dotted #d3a14d;
+        width: 10%;
+
 }
 
 .info {
@@ -65,14 +62,15 @@
 .dotted-2-container {
     display: flex;          
     justify-content: center;  
-    align-items: center;                
+    align-items: center;  
+               
   }
   
-  .dotted-line-2 {
-    width: 20rem;             
-    border: 2px dotted #d3a14d; 
-    margin-top: -15%;  
-    width: 50rem;              
+  .dotted-line-2 {          
+    margin-top: -15%;   
+    border: none;
+    border-top: 5px dotted #d3a14d;
+    width: 50%;
   }
 
   .jul-hos {
@@ -96,11 +94,11 @@
 
 
 .tekst-container {
-    display: flex;     
-    justify-content: center;  
-    align-items: center;     
-    text-align: center;
-    margin-top: -11%;
+  display: flex;     
+  justify-content: center;  
+  align-items: center;     
+  text-align: center;
+  margin-top: -11%;
 }
 
   .jul-tekst {
