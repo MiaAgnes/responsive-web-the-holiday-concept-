@@ -12,35 +12,35 @@
   position: sticky;
   object-fit: cover;
   top: 0;
-  z-index: -1; 
+  z-index: -1;
 }
-  
-  .julekugle {
-    position: absolute;
-    top: 47%;
-    left: 50%;
-    transform: translate(-50%, -50%); 
-    height: 100%;
-    z-index: 1;
-  }
 
-  .overlay-text {
-    position: absolute;
-    top: 70%; 
-    left: 50%;
-    transform: translate(-50%, -50%);
-    display: flex;
-    gap: 7%;
-    font-size: 25px;
-    font-family: Arial, sans-serif;
-    z-index: 2;
-  }
+.julekugle {
+  position: absolute;
+  top: 47%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 100%;
+  z-index: 1;
+}
 
-  .overlay-text a {
-    color: #d3a14d; 
-    text-decoration: none;
-    font-weight: bold;
-    padding-top: 10vh;
+.overlay-text {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  gap: 7%;
+  font-size: 25px;
+  font-family: Arial, sans-serif;
+  z-index: 2;
+}
+
+.overlay-text a {
+  color: #d3a14d;
+  text-decoration: none;
+  font-weight: bold;
+  padding-top: 10vh;
 }
 
 .overlay-text a:hover {
@@ -48,9 +48,9 @@
   color: #d3a14d;
 }
 
-h2{
-    font-size: 50px;
-    font-family: 'great vibes', cursive;
+h2 {
+  font-size: 50px;
+  font-family: "great vibes", cursive;
 }
 
 .h2-button {
@@ -61,7 +61,7 @@ h3 {
   font-size: 30px;
 }
 
-p{
+p {
   font-size: 20px;
 }
 
@@ -96,7 +96,7 @@ p{
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  padding-top: 80px
+  padding-top: 80px;
 }
 
 section {
@@ -139,21 +139,8 @@ section {
 @media (max-width: 480px) {
 }
 
-@media(min-width:481px) and (max-width:768px){
+@media (min-width: 481px) and (max-width: 768px) {
+}
 
-
-
-
-
- 
-  }
-
-
-
-@media(min-width:769px){
-
-
-
-
-
+@media (min-width: 769px) {
 }
