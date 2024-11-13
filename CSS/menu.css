@@ -1,11 +1,15 @@
 h1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     color: #d3a14d; 
     text-align: center;
     font-size: 5rem; 
-    margin-bottom: 30px;
-    margin-top: 30px;
+    margin-bottom: 5rem;
+    margin-top: 4rem;
     font-family: 'Great Vibes', cursive;
 }
+
 
 .dotted-2-container {
     display: flex;          
@@ -13,11 +17,11 @@ h1 {
     align-items: center;         
   }
   
-  .dotted-line-2 {          
+.dotted-line-2 {          
     margin-top: -15%;   
     border: none;
     border-top: 5px dotted #d3a14d;
-    width: 50%;
+    width: 90%;
   }
 
 .menu-h5 {
@@ -53,15 +57,33 @@ h1 {
     font-size: 3em;
     }
 
+#Burgere {
+    margin-bottom: -2rem;
+    margin-top: -2rem;
+}
+
+#Fries, #Varme-Drikke {
+    margin-bottom: -2rem;
+    margin-top: 4rem;
+}
+
+
 /* menu-navbar*/
 
-.menu-nav-links {
+
+
+.menu-nav-links{
     list-style: none;
     display: flex;
-    gap: 50px; /* Space between links */
-    text-align: center;
-    justify-content: center;
-}
+    flex-direction: row;
+    justify-content: center; 
+    align-items: center;
+   
+    gap: 10%; /* Space between links*/
+    font-size: 1.5rem;
+    font-weight: bold;
+    }
+
 
 .menu-nav-links li {
     text-align: center; /* Centrerer indholdet af li */
@@ -74,6 +96,7 @@ h1 {
     text-decoration: none;
     font-size: 1rem;
     display: inline-block;
+    margin-left: 2rem;
          
 }
 
@@ -101,18 +124,10 @@ h1 {
     flex-direction: column;
 }
 
-
-
 /*burger section*/
 
-.burger-img {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
-    
-}
 
-/*burger section*/
+
 
 
 
