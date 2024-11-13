@@ -127,19 +127,21 @@ h1 {
     border-radius: 10px;
   }
 
-
+/*telefon*/
 @media only screen and (max-width: 480px) {
 
 
 
 }
 
+/*tablet*/
 @media only screen and (min-width: 481px) and (max-width: 768px) {
 
 
 
 }
 
+/*desktop*/
 @media only screen and (min-width: 769px) {
 
 
