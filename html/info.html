@@ -17,12 +17,14 @@
 
   <body>
     <nav class="navbar">
-      <a href="https://theburgerconcept.com" class="logo">
-        <img src="../img/tbc-Logo.png" alt="The Burger Concept Logo" />
-      </a>
-
+      <article class="logo">
+        <img src="../img/tbc-logo.png" alt="The Burger Concept Logo" />
+      </article>
+      <input type="checkbox" id="menu-toggle" class="menu-checkbox" />
+      <!--mobilmenu-->
+      <label for="menu-toggle" class="menu-icon">☰</label>
       <ul class="nav-links">
-        <li><a href="../index.html">THE HOLIDAY CONCEPT</a></li>
+        <li><a href="index.html">THE HOLIDAY CONCEPT</a></li>
         <li>
           <a href="https://theburgerconcept.com/lokationer/">LOKATIONER</a>
         </li>
@@ -38,15 +40,23 @@
       <a href="https://theburgerconcept.com/bestil-online/" class="order-button"
         >BESTIL HER</a
       >
+      <!--mobilmenu-->
     </nav>
-
     <article class="juletrae-og-julekugle">
       <img
         src="../img/baggrund-tre.png"
         alt="juletraesbaggrund"
         class="juletrae"
       />
-      <img src="../img/thc-logo.png" alt="julekuglelogo" class="julekugle" />
+      <picture class="logo-container">
+        <img src="../img/thc-logo.png" alt="julekuglelogo" class="julekugle" />
+      </picture>
+
+      <aside class="overlay-text">
+        <a href="../html/info.html">INFO</a>
+        <a href="../html/menu.html">JULEMENUEN</a>
+        <a href="../html/julekalender.html">JULEKALENDER</a>
+      </aside>
     </article>
 
     <main>
