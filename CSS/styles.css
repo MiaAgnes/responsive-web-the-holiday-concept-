@@ -1,12 +1,13 @@
 .juletrae-og-julekugle {
   position: relative;
   width: 100%;
-  height: 65vh;
+  height: 50vh;
   overflow: hidden;
 }
 
 .juletrae {
   width: 100%;
+  display: block;
   height: 100%;
   position: sticky;
   object-fit: cover;
@@ -16,12 +17,11 @@
   
   .julekugle {
     position: absolute;
-    top: 70%;
+    top: 47%;
     left: 50%;
     transform: translate(-50%, -50%); 
-    max-width: 100%; 
+    height: 100%;
     z-index: 1;
-    display: block;
   }
 
   .overlay-text {
@@ -40,7 +40,7 @@
     color: #d3a14d; 
     text-decoration: none;
     font-weight: bold;
-    padding-top: 25vh;
+    padding-top: 10vh;
 }
 
 .overlay-text a:hover {
@@ -145,10 +145,9 @@ section {
 
 
 
-  .julekugle {
-    max-width: 90%; /* Adjust for smaller screens */
+ 
   }
-}
+
 
 
 @media(min-width:769px){

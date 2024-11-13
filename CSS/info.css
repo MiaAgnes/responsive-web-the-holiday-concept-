@@ -1,15 +1,31 @@
-.julekugle {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 20rem;   /* Fixed height for the container */
-    width: 100%;      /* Takes up the full width of the parent container */
-    border: 2px solid #d3a14d; /* Border around the .julekugle element */
-}
+.juletrae-og-julekugle {
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    overflow: hidden;
+  }
+  
+  .juletrae {
+    width: 100%;
+    display: block;
+    height: 100%;
+    position: sticky;
+    object-fit: cover;
+    top: 0;
+    z-index: -1; 
+  }
+    
+    .julekugle {
+      position: absolute;
+      top: 47%;
+      left: 50%;
+      transform: translate(-50%, -50%); 
+      height: 100%;
+      z-index: 1;
+    }
 
-.julekugle img {
-    width: 80%;   /* Set the width to 80% of the parent container */
-    height: auto; /* Maintain aspect ratio */
+.logo {
+    cursor: pointer;
 }
 
 .h1-og-info {
@@ -30,21 +46,21 @@
 .dotted-line-1 {
         border: none;
         border-top: 7px dotted #d3a14d;
-        width: 10%;
+        width: 10rem
 
 }
 
 .info {
-    display: flex;     
+    display: flex;
     justify-content: center;  
     align-items: center;     
     text-align: center;
-    width: 50rem;           
-    height: 150px;           
-    padding:20px; 
-    color: white;   
-    margin-bottom: 1;     /* Ved media queries husk at indsætte, så margin-bottom ændrer sig i procent - På den måde går jule-links og informationen ikke sammen på mobil */
- }
+    width: 50%;
+    height: auto;      
+    padding: 4rem;          
+    color: white;  
+    margin: 0 auto;       
+}
 
 
 .jule-links {
@@ -92,14 +108,13 @@
     width: 10rem;              
   }
 
-
-.tekst-container {
-  display: flex;     
-  justify-content: center;  
-  align-items: center;     
-  text-align: center;
-  margin-top: -11%;
-}
+  .tekst-container {
+    display: flex;     
+    justify-content: center;  
+    align-items: center;     
+    text-align: center;
+    margin-top: -11%;
+  }
 
   .jul-tekst {
     width: 50rem;           
@@ -117,11 +132,14 @@
     font-weight: bold;
     padding-top: 5%;
     padding-bottom: 3%;
+    cursor: pointer; 
+    text-decoration: none; 
   }
 
-  .solid-line-white {
+  .laes-mere:hover {
+    text-decoration: underline; 
+}
 
-  }
 
   .solid-line-white-container {
     display: flex;          
@@ -147,15 +165,15 @@
 
   #grid-container {
     display: grid;
-    gap: 20px; /* Space between grid items */
-    justify-items: center; /* Center items horizontally */
-    align-items: center; /* Center items vertically */
+    gap: 20px; 
+    justify-items: center; 
+    align-items: center; 
     
-    /* Define two columns for the grid */
-    grid-template-columns: repeat(2, 1fr); /* This creates two equal-width columns */
+  
+    grid-template-columns: repeat(2, 1fr);
 
-    margin: 0 auto; /* Center the grid container itself */
-    margin-bottom: 10rem; /* Space at the bottom */
+    margin: 0 auto; 
+    margin-bottom: 10rem; 
     margin-top: -3%;
     
 }
@@ -194,6 +212,12 @@
     padding-top: 3%;
     padding-bottom: 3%;
     margin-right: 79.9%;
+    cursor: pointer; 
+    text-decoration: none; 
+}
+
+.laes-mere2:hover {
+    text-decoration: underline; 
 }
 
 .julekalender-parent {
@@ -229,7 +253,14 @@
     font-weight: bold;
     padding-top: 5%;
     padding-bottom: 3%;
-  }
+    cursor: pointer; 
+    text-decoration: none; 
+}
+
+
+.laes-mere3:hover {
+    text-decoration: underline; 
+}
 
 .laage {
     display: flex;     
@@ -237,10 +268,12 @@
     align-items: center;  
     margin-bottom: 5%;
     height: auto;
+    cursor: pointer;
 }
 
 .dotted-line-2 {
     display: flex;     
     justify-content: center;  
     align-items: center;  
+    margin-bottom: -7rem;
 }
