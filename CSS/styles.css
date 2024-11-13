@@ -145,10 +145,9 @@ section {
 
 
 
-  .julekugle {
-    max-width: 90%; /* Adjust for smaller screens */
+ 
   }
-}
+
 
 
 @media(min-width:769px){
