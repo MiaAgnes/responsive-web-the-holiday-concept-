@@ -1,136 +1,135 @@
-/*overskrift og tekst styling*/
+/* Base Styles */
 h1 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  color: #d3a14d;
-  text-align: center;
-  font-size: 5rem;
-  margin-bottom: 5rem;
-  margin-top: 4rem;
-  font-family: "Great Vibes", cursive;
-}
-
-.dotted-2-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.dotted-line-2 {
-  margin-top: -15%;
-  border: none;
-  border-top: 5px dotted #d3a14d;
-  width: 90%;
-}
-
-.menu-h5 {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  font-size: 1.2em;
-  font-weight: bold;
-  font-family: "Arial", sans-serif;
-  color: #fff;
-  margin: 10px 0 5px;
-}
-
-.menu-p {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  width: 25em;
-  font-size: 0.9em;
-  line-height: 1.6;
-  font-family: "Arial", sans-serif;
-  color: #ddd;
-}
-
-/*mad overskrifter*/
-#Burgere,
-#Fries,
-#Varme-Drikke {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  font-family: "Great Vibes", cursive;
-  font-size: 3em;
-}
-
-#Burgere {
-  margin-bottom: -2rem;
-  margin-top: -2rem;
-}
-
-#Fries,
-#Varme-Drikke {
-  margin-bottom: -2rem;
-  margin-top: 4rem;
-}
-
-/* menu-navbar*/
-.menu-nav-links {
-  list-style: none;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-
-  gap: 10%; /* Space between links*/
-  font-size: 1.5rem;
-  font-weight: bold;
-}
-
-.menu-nav-links li {
-  display: flex;
-  text-align: center; /* Centrerer indholdet af li */
-  justify-content: space-evenly;
-}
-
-.menu-nav-links li a {
-  color: #fff; /* White text */
-  font-weight: bold;
-  text-decoration: none;
-  font-size: 1rem;
-  display: inline-block;
-  margin-left: 2rem;
-}
-
-.menu-nav-links li a:hover {
-  color: #d3a14d; /* Gold on hover */
-}
-
-/*menu billeder */
-.menu-billeder img {
-  height: auto;
-  width: 20em;
-  border: none;
-  border-radius: 0;
-  box-shadow: none;
-}
-
-.menu-billeder {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-/*menukort generel tekst*/
-.menukort-header {
-  background-color: black;
-  color: #fff;
-  padding: 60px;
-  margin-bottom: 20px;
-  display: flex;
-  flex-direction: column;
-}
-
-/*burger section*/
-
-.burger-img {
-  width: 100%;
-  height: auto;
-  border-radius: 10px;
-}
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #d3a14d;
+    text-align: center;
+    font-size: 4rem;
+    margin: 4rem 0 5rem 0;
+    font-family: "Great Vibes", cursive;
+  }
+  
+  .dotted-2-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .dotted-line-2 {
+    margin-top: -15%;
+    border: none;
+    border-top: 5px dotted #d3a14d;
+    width: 90%;
+  }
+  
+  .menu-h5 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: "Arial", sans-serif;
+    color: #fff;
+    margin: 10px 0 5px;
+  }
+  
+  .menu-p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 25em;
+    font-size: 0.9em;
+    line-height: 1.6;
+    font-family: "Arial", sans-serif;
+    color: #ddd;
+  }
+  
+  /* Section Headers */
+  #Burgere,
+  #Fries,
+  #Varme-Drikke {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: "Great Vibes", cursive;
+    font-size: 3em;
+  }
+  
+  #Burgere {
+    margin-bottom: -2rem;
+    margin-top: -2rem;
+  }
+  
+  #Fries,
+  #Varme-Drikke {
+    margin-bottom: -2rem;
+    margin-top: 4rem;
+  }
+  
+  /* Menu Navbar */
+  .menu-nav-links {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .menu-nav-links li {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+  }
+  
+  .menu-nav-links li a {
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1rem;
+    display: inline-block;
+    margin-left: 2rem;
+  }
+  
+  .menu-nav-links li a:hover {
+    color: #d3a14d;
+  }
+  
+  /* Menu Images */
+  .menu-billeder {
+    display: flex;
+    flex-wrap: wrap; /* Enables wrapping */
+    align-items: center;
+    justify-content: center;
+    gap: 20px; /* Space between images */
+  }
+  
+  .menu-billeder img {
+    height: auto;
+    width: 20em;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+  }
+  
+  /* General Menu Header */
+  .menukort-header {
+    background-color: black;
+    color: #fff;
+    padding: 60px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Burger Section */
+  .burger-img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
