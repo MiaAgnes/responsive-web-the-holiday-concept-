@@ -147,14 +147,102 @@
   }
 
 
-  .grid-container {
-   
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive columns */
+  #grid-container {
+    display: grid;
     gap: 20px; /* Space between grid items */
     justify-items: center; /* Center items horizontally */
     align-items: center; /* Center items vertically */
-    margin: 0 auto;
-    padding-right: 20%; /* Adjust this percentage as needed */
-    margin-bottom: 50rem;
     
+    /* Define two columns for the grid */
+    grid-template-columns: repeat(2, 1fr); /* This creates two equal-width columns */
+
+    margin: 0 auto; /* Center the grid container itself */
+    margin-bottom: 10rem; /* Space at the bottom */
+    margin-top: -3%;
     
+}
+
+.grid {
+    min-height: 500px;
+    max-height: 550px;
+    
+}
+
+
+
+.grid img {
+    width: auto;
+    height: 600px;
+    object-fit: cover;
+}
+
+.proev {
+    margin-top: 5%;
+    margin-bottom: 3%;
+    font-weight: bold;
+}
+
+.solid-line-short {
+    width: 8rem;             
+    border: 1.5px solid white;
+}
+
+.laes-mere2 {
+    display: flex;     
+    justify-content: center;  
+    align-items: center;  
+    color: white;
+    font-weight: bold;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin-right: 79.9%;
+}
+
+.julekalender-parent {
+    display: flex;          
+    justify-content: center;  
+    align-items: center; 
+    margin-bottom: 2.5%;
+   
+}
+
+.julekalender-tekst-container {
+    display: flex;     
+    justify-content: center;  
+    align-items: center;     
+    text-align: center;
+    margin-top: -11%;
+}
+
+  .julekalender-tekst {
+    width: 50rem;           
+    height: 150px;           
+    padding:20px; 
+    color: white; 
+    margin-bottom: -7rem; 
+  }
+
+  .laes-mere3 {
+    margin-top: -2%;
+    display: flex;     
+    justify-content: center;  
+    align-items: center;  
+    color: white;
+    font-weight: bold;
+    padding-top: 5%;
+    padding-bottom: 3%;
+  }
+
+.laage {
+    display: flex;     
+    justify-content: center;  
+    align-items: center;  
+    margin-bottom: 5%;
+    height: auto;
+}
+
+.dotted-line-2 {
+    display: flex;     
+    justify-content: center;  
+    align-items: center;  
+}
