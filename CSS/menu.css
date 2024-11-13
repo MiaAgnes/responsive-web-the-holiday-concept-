@@ -127,12 +127,12 @@ h1 {
     border-radius: 10px;
   }
 
-
+/*telefon*/
 @media (max-width: 480px) {
 }
-
+/*tablet*/
 @media (min-width: 481px) and (max-width: 768px) {
 }
-
+/*desktop*/
 @media (min-width: 769px) {
 }
