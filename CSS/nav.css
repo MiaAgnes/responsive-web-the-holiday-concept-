@@ -6,7 +6,7 @@
 
 body {
     background-color: #000;
-    color: #d3a14d; /* Gold color for the text */
+    color: #d3a14d; 
     font-family: Arial, sans-serif;
 }
 
@@ -64,3 +64,42 @@ body {
     background-color: #d3a14d;
 }
 
+.menu-checkbox {
+    display: none;
+  }
+  
+  .menu-icon {
+    display: none;
+  }
+
+
+  @media (max-width: 768px) {
+    .nav-links {
+      display: none; /* Hide nav-links initially */
+      position: absolute;
+      top: 60px;
+      right: 0;
+      background-color: #000;
+      flex-direction: column;
+      width: 200px;
+      padding: 10px;
+      border-radius: 5px;
+    }
+  
+    .nav-links li {
+      margin: 10px 0;
+    }
+  
+    /* Show menu icon on smaller screens */
+    .menu-icon {
+      display: block;
+      font-size: 24px;
+      cursor: pointer;
+      color: #d3a14d;
+    }
+  
+    /* Show nav-links when the checkbox is checked */
+    .menu-checkbox:checked + .menu-icon + .nav-links {
+      display: flex;
+    }
+  }

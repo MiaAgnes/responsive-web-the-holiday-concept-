@@ -92,14 +92,13 @@
     width: 10rem;              
   }
 
-
-.tekst-container {
+  .tekst-container {
     display: flex;     
     justify-content: center;  
     align-items: center;     
     text-align: center;
     margin-top: -11%;
-}
+  }
 
   .jul-tekst {
     width: 50rem;           
@@ -125,9 +124,6 @@
     text-decoration: underline; 
 }
 
-  .solid-line-white {
-
-  }
 
   .solid-line-white-container {
     display: flex;          

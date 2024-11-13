@@ -7,19 +7,20 @@
 
 .juletrae {
   width: 100%;
+  display: block;
   height: 100%;
-  object-fit: cover;
   position: sticky;
+  object-fit: cover;
   top: 0;
   z-index: -1; 
 }
   
   .julekugle {
     position: absolute;
-    top: 59%;
+    top: 47%;
     left: 50%;
     transform: translate(-50%, -50%); 
-    max-width: 25%; 
+    height: 100%;
     z-index: 1;
   }
 
@@ -29,22 +30,22 @@
     left: 50%;
     transform: translate(-50%, -50%);
     display: flex;
-    gap: 7%; /* Space between links */
-    font-size: 35px;
+    gap: 7%;
+    font-size: 25px;
     font-family: Arial, sans-serif;
     z-index: 2;
   }
 
   .overlay-text a {
-    color: #d3a14d; /* Gold color */
+    color: #d3a14d; 
     text-decoration: none;
     font-weight: bold;
-    padding-top: 15vh;
+    padding-top: 10vh;
 }
 
 .overlay-text a:hover {
-    text-decoration: underline;
-    color: #d3a14d;
+  text-decoration: underline;
+  color: #d3a14d;
 }
 
 h2{
@@ -53,21 +54,21 @@ h2{
 }
 
 .h2-button {
-margin-bottom: 60px;
+  margin-bottom: 60px;
 }
 
-h3{
+h3 {
   font-size: 30px;
 }
 
 p{
-  font-size: 20px
+  font-size: 20px;
 }
 
-.overskrift{
-    display: block;
-    text-align: center;
-    margin-top: 2%;
+.overskrift {
+  display: block;
+  text-align: center;
+  margin-top: 2%;
 }
 
 .order-button2 {
@@ -87,7 +88,16 @@ p{
   background-color: #d3a14d;
 }
 
-
+.logo-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 80px
+}
 
 section {
   display: flex;
@@ -121,29 +131,26 @@ section {
   margin-top: 15px;
 }
 
-.knap:hover{
+.knap:hover {
   background-color: #d3a14d;
   color: white;
 }
 
+@media (max-width: 480px) {
+}
 
-@media(max-width:480px){
+@media(min-width:481px) and (max-width:768px){
+
+
+
+
+
  
-
-
-  
-}
-
-@media(min-width:768px){
+  }
 
 
 
-
-
-}
-
-
-@media(min-width:1920px){
+@media(min-width:769px){
 
 
 
