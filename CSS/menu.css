@@ -90,7 +90,15 @@ h1 {
   .menu-nav-links li a:hover {
     color: #d3a14d; /* Gold on hover */
   }
-  /*menu billeder */
+  
+  .menu-billeder {
+    display: flex;
+    flex-wrap: wrap; 
+    align-items: center;
+    justify-content: center;
+    gap: 20px; 
+  }
+  
   .menu-billeder img {
     height: auto;
     width: 20em;

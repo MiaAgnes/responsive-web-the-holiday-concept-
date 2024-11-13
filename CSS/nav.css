@@ -43,7 +43,7 @@ body {
 }
 
 .nav-links a:hover {
-  color: white; /* Slightly darker or contrasting color on hover */
+  color: white; 
 }
 
 .order-button {
@@ -74,7 +74,7 @@ body {
 
 @media (max-width: 768px) {
   .nav-links {
-    display: none; /* Hide nav-links initially */
+    display: none; 
     position: absolute;
     top: 60px;
     right: 0;
@@ -89,7 +89,6 @@ body {
     margin: 10px 0;
   }
 
-  /* Show menu icon on smaller screens */
   .menu-icon {
     display: block;
     font-size: 24px;
@@ -97,7 +96,6 @@ body {
     color: #d3a14d;
   }
 
-  /* Show nav-links when the checkbox is checked */
   .menu-checkbox:checked + .menu-icon + .nav-links {
     display: flex;
   }
