@@ -64,8 +64,9 @@ h1 {
 }
 
 .menu-nav-links li {
+    display: flex;
     text-align: center; /* Centrerer indholdet af li */
-    padding-right: 80px;
+    justify-content: space-evenly;
 }
 
 .menu-nav-links li a {
@@ -90,6 +91,12 @@ h1 {
     box-shadow: none;
 } 
 
+.menu-billeder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 
 /*menukort generel tekst*/
 .menukort-header {
@@ -112,7 +119,7 @@ h1 {
     
 }
 
-/*burger section*/
+
 
 
 
