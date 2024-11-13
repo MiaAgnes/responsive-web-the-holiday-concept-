@@ -72,7 +72,7 @@ body {
   display: none;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1098px) {
   .nav-links {
     display: none; 
     position: absolute;
@@ -94,9 +94,14 @@ body {
     font-size: 24px;
     cursor: pointer;
     color: #d3a14d;
+    padding-bottom: 20px;
   }
 
   .menu-checkbox:checked + .menu-icon + .nav-links {
     display: flex;
+  }
+
+  .order-button{
+    display: none;
   }
 }
