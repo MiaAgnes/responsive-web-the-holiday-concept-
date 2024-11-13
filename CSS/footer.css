@@ -83,6 +83,7 @@ a:hover {
     .footer-links3 {
       width: 300px; /* Restore specified widths for larger screens */
       text-align: center;
+      width: 250px;
     }
 
     .icon-group{
