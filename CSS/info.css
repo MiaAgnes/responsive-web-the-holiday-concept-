@@ -94,11 +94,11 @@
 
 
 .tekst-container {
-    display: flex;     
-    justify-content: center;  
-    align-items: center;     
-    text-align: center;
-    margin-top: -11%;
+  display: flex;     
+  justify-content: center;  
+  align-items: center;     
+  text-align: center;
+  margin-top: -11%;
 }
 
   .jul-tekst {

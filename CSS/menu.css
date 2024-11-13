@@ -10,15 +10,14 @@ h1 {
 .dotted-2-container {
     display: flex;          
     justify-content: center;  
-    align-items: center;                
+    align-items: center;         
   }
   
-  .dotted-line-2 {
-    width: 20rem;             
-    border: 2px dotted #d3a14d; 
-    margin-top: -15%;  
-    width: 50rem;    
-              
+  .dotted-line-2 {          
+    margin-top: -15%;   
+    border: none;
+    border-top: 5px dotted #d3a14d;
+    width: 50%;
   }
 
 .menu-h5 {
@@ -34,8 +33,11 @@ h1 {
 
 .menu-p{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 25em;
     font-size: 0.9em;
     line-height: 1.6;
     font-family: 'Arial', sans-serif;
