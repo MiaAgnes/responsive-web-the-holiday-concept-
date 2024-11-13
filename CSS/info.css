@@ -264,11 +264,202 @@
   margin-bottom: -7rem;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 1012px) {
+    #grid-container {
+        grid-template-columns: 1fr; /* Change to a single column layout */
+        margin-bottom: -5rem;
+    }
+
+    .grid {
+        min-height: 400px; /* Reduce height for smaller screens */
+        max-height: 500px;
+        margin-bottom: 10rem;
+    }
+
+    .grid img {
+        height: 500px; /* Reduce image height */
+        width: 400px;
+    }
+
+    .laes-mere {
+        margin-top: -1rem;
+      }
+      
+      .laes-mere3 {
+        margin-top: 7rem;
 }
 
-@media (min-width: 481px) and (max-width: 768px) {
+.julekalender-tekst {
+    width: 30rem;
+
+ 
+  }
+
+.jul-tekst {
+    width: 30rem;
+    margin-bottom: 2%;
 }
 
-@media (min-width: 769px) {
+.solid-line-white {
+    display: none;
+    
+  }
+
+.info {
+    width: 30rem;x
+    margin-top: -7%;
+    margin-bottom: 1%;
+}
+
+.jule-links {
+    gap: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.november {
+    margin-bottom: -3rem;
+}
+
+.dotted-line-2 {
+    margin-top: -12rem;
+}
+
+.menu-nav-links {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+}
+
+
+@media (max-width: 485px) {
+    
+
+.julekalender-tekst {
+    width: 30rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    text-align:start
+ 
+  }
+
+.jul-tekst {
+    width: 30rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    margin-bottom: 10rem;
+}
+
+.solid-line-white {
+    display: none;
+    
+  }
+
+.info {
+    width: 30rem;x
+    margin-top: -7%;
+    margin-bottom: 1%;
+}
+
+
+.jule-links {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    align-items: flex-start;
+    padding-left: 2.6rem;
+  }
+
+  .jule-links a {
+    padding-top: 20px;
+  }
+
+.november {
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 2.6rem;
+}
+
+.dotted-line-2 {
+    margin-top: -12rem;
+    width: 20rem;
+}
+
+.overlay-text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .overlay-text a {
+    padding-top: 20px;
+  }
+
+.laes-mere3 {
+    display: flex;
+    margin-bottom: 3rem;
+    margin-top: 10rem;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 2.6rem;
+}
+
+.laes-mere {
+    display: flex;
+    margin-bottom: 3rem;
+    margin-top: -4rem;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 2.6rem;
+}
+
+
+.julekalender-info {
+    width: 25rem;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+
+.jul-hos {
+    padding-left: 2.6rem;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+
+.solid-line {
+    padding-left: 15rem;
+    padding-right: 10rem;
+    margin-top: -1rem;
+    margin-bottom: 2rem;
+    display: flex;
+    text-align: start;
+}
+
+.dotted-line-2 {
+    padding-left: 15rem;
+    padding-right: 10rem;
+    margin-top: -1rem;
+    margin-bottom: 2rem;
+    display: flex;
+    text-align: start;
+}
+
+.info {
+    padding-left: 2.6rem;
+    display: flex;
+    flex-direction: column;
+    text-align: start;  
+}
+
 }
