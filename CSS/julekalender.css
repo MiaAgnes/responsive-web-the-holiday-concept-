@@ -89,6 +89,22 @@ h1 {
     h1 {
       font-size: 1.8rem;
     }
+
+    .julekugle-kalender {
+      height: 580px;
+      width: 380px;
+      padding-top: 12px;
+      margin-bottom: 0;
+    }
+
+    .box-1 {
+      padding: 0px;
+      margin-bottom: 190px;
+    }
+
+    .main {
+      padding: 0px;
+    }
 }
 
 
@@ -114,7 +130,7 @@ h1 {
   }
 
   .julekugle-kalender {
-    height: 250px;
+    height: 290px;
     width: 200px;
     padding-top: 20px;
   }
