@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /info
+Allow: /index
+Allow: /menu
+Allow: /julekalender
+
+Sitemap: http://www.sitemaps.org/schemas/sitemap/0.9
