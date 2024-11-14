@@ -1,3 +1,4 @@
+/* baggrund  */
 body {
   background-color: black;
   background-image: url("../img/lille-juletre.webp");
@@ -8,10 +9,35 @@ main {
   flex-wrap: wrap;
 }
 
+/* billeder */
 .juletrae {
   width: 100%;
   height: auto;
   z-index: -1;
+}
+
+.laagen {
+  width: 300px;
+  height: 300px;
+}
+
+/* typografi */
+h1 {
+  font-size: 2rem;
+  font-family: "Great Vibes", cursive;
+}
+
+/* justering/placering af kasser/billeder */
+
+.julekugle-box {
+  width: 30%;
+  box-sizing: border-box;
+  margin-top: -26px;
+}
+
+.julekugle-kalender {
+  width: 100%;
+  height: auto;
 }
 
 .main {
@@ -32,30 +58,10 @@ main {
   align-items: center;
 }
 
-h1 {
-  font-size: 2rem;
-  font-family: "Great Vibes", cursive;
-}
-
-.laagen {
-  width: 300px;
-  height: 300px;
-}
-
-.julekugle-box {
-  width: 30%;
-  box-sizing: border-box;
-  margin-top: -26px;
-}
-
-.julekugle-kalender {
-  width: 100%;
-  height: auto;
-}
-
 
 /* Desktop (min-width: 769px) */
 @media only screen and (min-width: 769px) {
+  /* layout */
   .main {
     flex-direction: row;
   }
@@ -71,30 +77,17 @@ h1 {
 
 /* Tablet (min-width: 481px and max-width: 768px) */
 @media only screen and (min-width: 481px) and (max-width: 768px) {
-  /* .julekugle-box,
-  .main {
-    width: 100%; */
-
+/* layout */
     .main {
       flex-direction: column;
     }
   
+    /* placering/justering af kasser  */
     .julekugle-box,
     .box-1 {
       width: 100%;
       max-width: 500px;
       margin-bottom: 30px;
-    }
-  
-    h1 {
-      font-size: 1.8rem;
-    }
-
-    .julekugle-kalender {
-      height: 580px;
-      width: 380px;
-      padding-top: 12px;
-      margin-bottom: 0;
     }
 
     .box-1 {
@@ -105,26 +98,37 @@ h1 {
     .main {
       padding: 0px;
     }
+  
+    /* font */
+    h1 {
+      font-size: 1.8rem;
+    }
+
+    /* billeder */
+    .julekugle-kalender {
+      height: 580px;
+      width: 380px;
+      padding-top: 12px;
+      margin-bottom: 0;
+    }
+
 }
 
 
 /* Telefon (max-width: 480px) */
 @media only screen and (max-width: 480px) {
+  /* layout på siden */
   .main {
     flex-direction: column;
   }
 
-  .julekugle-box,
-  .box-1 {
-    width: 100%;
-    margin-bottom: 20px;
-  }
-
+  /* skrift */
   h1 {
     font-size: 1.5rem;
     text-align: center;
   }
 
+  /* billeder */
   .laagen {
     max-width: 280px;
   }
@@ -133,5 +137,11 @@ h1 {
     height: 290px;
     width: 200px;
     padding-top: 20px;
+  }
+
+  .julekugle-box,
+  .box-1 {
+    width: 100%;
+    margin-bottom: 20px;
   }
 }

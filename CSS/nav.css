@@ -17,13 +17,14 @@ body {
   padding: 10px 20px;
   background-color: #000;
 }
-
+ /* the burger concept logoet*/
 .logo img {
   height: 100px;
   width: 150px;
   padding: 5px;
 }
 
+/* menuerne i navbaren*/
 .nav-links {
   display: flex;
   list-style: none;
@@ -42,10 +43,12 @@ body {
   font-weight: bold;
 }
 
+/* hover til menuen */
 .nav-links a:hover {
   color: white; 
 }
 
+/* bestilknappen+hover */
 .order-button {
   padding: 16px 40px;
   background-color: black;
@@ -64,6 +67,7 @@ body {
   background-color: #d3a14d;
 }
 
+/* burger menu */
 .menu-checkbox {
   display: none;
 }
@@ -72,6 +76,7 @@ body {
   display: none;
 }
 
+/* media queries*/
 @media (max-width: 1098px) {
   .nav-links {
     display: none; 
@@ -88,7 +93,7 @@ body {
   .nav-links li {
     margin: 10px 0;
   }
-
+  /* burger menu */
   .menu-icon {
     display: block;
     font-size: 24px;
@@ -100,7 +105,7 @@ body {
   .menu-checkbox:checked + .menu-icon + .nav-links {
     display: flex;
   }
-
+  /* bestilknappen */
   .order-button{
     display: none;
   }

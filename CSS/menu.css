@@ -128,6 +128,7 @@ h1 {
   }
 
 
+/* responsiv design med media queries */
 
 /* Desktop (min-width: 769px) */
 @media only screen and (min-width: 769px) {
