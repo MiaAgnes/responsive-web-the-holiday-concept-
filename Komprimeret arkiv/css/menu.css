@@ -1,0 +1,266 @@
+
+/*overskrift og tekst styling*/
+h1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #d3a14d;
+    text-align: center;
+    font-size: 5rem;
+    margin-bottom: 5rem;
+    margin-top: 4rem;
+    font-family: "Great Vibes", cursive;
+  }
+  .dotted-2-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .dotted-line-2 {
+    margin-top: -15%;
+    border: none;
+    border-top: 5px dotted #d3a14d;
+    width: 90%;
+  }
+  .menu-h5 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: "Arial", sans-serif;
+    color: #fff;
+    margin: 10px 0 5px;
+  }
+  .menu-p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 25em;
+    font-size: 0.9em;
+    line-height: 1.6;
+    font-family: "Arial", sans-serif;
+    color: #ddd;
+  }
+  /*mad overskrifter*/
+  #Burgere,
+  #Fries,
+  #Varme-Drikke {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: "Great Vibes", cursive;
+    font-size: 3em;
+  }
+  #Burgere {
+    margin-bottom: -2rem;
+    margin-top: -2rem;
+  }
+  #Fries,
+  #Varme-Drikke {
+    margin-bottom: -2rem;
+    margin-top: 4rem;
+  }
+  /* menu-navbar*/
+  .menu-nav-links {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10%; /* Space between links*/
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  .menu-nav-links li {
+    display: flex;
+    text-align: center; /* Centrerer indholdet af li */
+    justify-content: space-evenly;
+  }
+  .menu-nav-links li a {
+    color: #fff; /* White text */
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1rem;
+    display: inline-block;
+    margin-left: 2rem;
+  }
+  .menu-nav-links li a:hover {
+    color: #d3a14d; /* Gold on hover */
+  }
+  
+  .menu-billeder {
+    display: flex;
+    flex-wrap: wrap; 
+    align-items: center;
+    justify-content: center;
+    gap: 20px; 
+  }
+  
+  .menu-billeder img {
+    height: auto;
+    width: 20em;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+  }
+  .menu-billeder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  /*menukort generel tekst*/
+  .menukort-header {
+    background-color: black;
+    color: #fff;
+    padding: 60px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  /*burger section*/
+  .burger-img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+
+
+/* responsiv design med media queries */
+
+/* Desktop (min-width: 769px) */
+@media only screen and (min-width: 769px) {
+    h1 {
+        font-size: 5rem;
+        margin-bottom: 5rem;
+        margin-top: 4rem;
+      }
+    
+      .dotted-line-2 {
+        margin-top: -15%;
+        width: 90%;
+      }
+    
+      .menu-h5 {
+        font-size: 1.2em;
+      }
+    
+      .menu-p {
+        font-size: 0.9em;
+      }
+    
+      #Burgere, #Fries, #Varme-Drikke {
+        font-size: 3em;
+      }
+    
+      .menu-nav-links {
+        font-size: 1.5rem;
+        gap: 10%;
+      }
+    
+      .menu-nav-links li a {
+        font-size: 1rem;
+        margin-left: 2rem;
+      }
+    
+      .menukort-header {
+        padding: 60px;
+      }
+}
+
+/* Tablet (min-width: 481px and max-width: 768px) */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    h1 {
+        font-size: 4rem;
+        margin-bottom: 4rem;
+        margin-top: 3rem;
+      }
+    
+      .menu-nav-links {
+        flex-wrap: wrap;
+      }
+    
+      .menu-nav-links li {
+        margin-bottom: 10px;
+      }
+    
+      .burger-section, .fries-section, .varme-drikke {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+    
+      .menukort {
+        flex-basis: 45%;
+        margin-bottom: 20px;
+      }
+
+      .menu-p {
+        padding-bottom: 20px ;
+      }
+   
+}
+
+/* Telefon (max-width: 480px) */
+@media only screen and (max-width: 480px) {
+    h1 {
+        font-size: 2.5rem;
+        margin-bottom: 2rem;
+        margin-top: 1.5rem;
+      }
+    
+      .menu-nav-links {
+        flex-direction: column;
+        gap: 10px;
+      }
+    
+      .menu-nav-links li {
+        width: 100%;
+      }
+    
+      .menu-nav-links li a {
+        margin-left: 0;
+      }
+    
+      #Burgere, #Fries, #Varme-Drikke {
+        font-size: 1.8em;
+      }
+    
+      .burger-section, .fries-section, .varme-drikke {
+        flex-direction: column;
+        align-items: center;
+      }
+    
+      .menukort {
+        width: 100%;
+        margin-bottom: 20px;
+      }
+    
+      .menukort-header {
+        padding: 20px;
+      }
+
+      .overlay-text {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .overlay-text a {
+        padding-top: 15px;
+      }
+   
+      h3 {
+        padding-bottom: 10px;
+      }
+
+      .menu-nav-links {
+        padding-bottom: 80px;
+      }
+      
+      .menu-p {
+        padding-bottom: 20px ;
+      }
+}
