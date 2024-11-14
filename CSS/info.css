@@ -1,3 +1,6 @@
+
+
+/* Her har vi juletraet og juglekuglen */
 .juletrae-og-julekugle {
   position: relative;
   width: 100%;
@@ -28,6 +31,7 @@
   cursor: pointer;
 }
 
+/* Her har vi h1'eren og information om, hvad julekonceptet er */
 .h1-og-info {
   display: flex;
   flex-direction: column;
@@ -61,6 +65,7 @@
   margin: 0 auto;
 }
 
+/* Her har vi en navigation, der linker, når man scroller */
 .jule-links {
   display: flex;
   flex-direction: row;
@@ -84,6 +89,7 @@
   width: 50%;
 }
 
+/* Overskrift og information om jul hos the burger concept */
 .jul-hos {
   display: flex;
   justify-content: center;
@@ -131,6 +137,7 @@
   text-decoration: none;
 }
 
+/* Her har vi en underline hover, når man går hen over "laes-mere"*/
 .laes-mere:hover {
   text-decoration: underline;
 }
@@ -156,6 +163,7 @@
   font-weight: bold;
 }
 
+/* Her har vi vores grid, der passer til infografikken */
 #grid-container {
   display: grid;
   gap: 20px;
@@ -208,6 +216,7 @@
   text-decoration: underline;
 }
 
+/* Her begynder julekalenderen */
 .julekalender-parent {
   display: flex;
   justify-content: center;
@@ -264,20 +273,22 @@
   margin-bottom: -7rem;
 }
 
-@media (max-width: 1012px) {
+
+/* Her begynder media queries */
+@media (max-width: 1012px) { /* Her begynder tablet*/
     #grid-container {
-        grid-template-columns: 1fr; /* Change to a single column layout */
+        grid-template-columns: 1fr; 
         margin-bottom: -5rem;
     }
 
     .grid {
-        min-height: 400px; /* Reduce height for smaller screens */
+        min-height: 400px; 
         max-height: 500px;
         margin-bottom: 10rem;
     }
 
     .grid img {
-        height: 500px; /* Reduce image height */
+        height: 500px; 
         width: 400px;
     }
 
@@ -335,7 +346,7 @@
 }
 
 
-@media (max-width: 485px) {
+@media (max-width: 485px) { /* Her begynder mobilen */
     
 
 .julekalender-tekst {
