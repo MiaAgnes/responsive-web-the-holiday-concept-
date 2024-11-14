@@ -45,21 +45,21 @@ h1 {
     color: #ddd;
   }
   /*mad overskrifter*/
-  #Burgere,
-  #Fries,
-  #Varme-Drikke {
+  #burgere,
+  #fries,
+  #varme-drikke {
     display: flex;
     flex-direction: row;
     justify-content: center;
     font-family: "Great Vibes", cursive;
     font-size: 3em;
   }
-  #Burgere {
+  #burgere {
     margin-bottom: -2rem;
     margin-top: -2rem;
   }
-  #Fries,
-  #Varme-Drikke {
+  #fries,
+  #varme-drikke {
     margin-bottom: -2rem;
     margin-top: 4rem;
   }
@@ -151,7 +151,7 @@ h1 {
         font-size: 0.9em;
       }
     
-      #Burgere, #Fries, #Varme-Drikke {
+      #burgere, #fries, #varme-drikke {
         font-size: 3em;
       }
     
@@ -224,7 +224,7 @@ h1 {
         margin-left: 0;
       }
     
-      #Burgere, #Fries, #Varme-Drikke {
+      #burgere, #fries, #varme-drikke {
         font-size: 1.8em;
       }
     
